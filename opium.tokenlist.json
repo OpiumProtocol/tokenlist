@@ -1,6 +1,6 @@
 {
   "name": "Opium Token List",
-  "logoURI": "ipfs://QmSuwX6prnUXhDXeBUoYcd2Fi9FMnjppeg1j548WMEcTMQ",
+  "logoURI": "ipfs://QmcMSkzQVAJXZKm5fDdTAA9hAegoTz8se8mGRwgYhtGP5C",
   "keywords": [
     "audited",
     "verified",
@@ -82,7 +82,7 @@
       "chainId": 1,
       "address": "0x5afFE41805a9E57fEd3657d0e64D96aeA0B77885",
       "symbol": "OPIUM-LP-34b7",
-      "name": "Opium USDT Protection v2/USDC",
+      "name": "SHORT - Opium USDT Protection v2/USDC",
       "decimals": 6,
       "tags": [
         "position",
@@ -93,8 +93,19 @@
     {
       "chainId": 1,
       "address": "0x8ca74ab05c8e354ffdb7cdfb332c4874a23261d0",
-      "symbol": "LONG-OPIUM-LP-34b7",
-      "name": "LONG - Opium USDT Protection v2/USDC",
+      "symbol": "OPIUM-LONG",
+      "name": "LONG - Opium USDT Protection 4APR",
+      "decimals": 18,
+      "tags": [
+        "position",
+        "long"
+      ]
+    },
+    {
+      "chainId": 1,
+      "address": "0xe7ca3d22caa5517369440054df2bff3bbd2607b1",
+      "symbol": "OPIUM-LONG",
+      "name": "LONG - Opium USDT Protection 4MAY",
       "decimals": 18,
       "tags": [
         "position",
@@ -104,7 +115,7 @@
   ],
   "version": {
     "major": 1,
-    "minor": 0,
+    "minor": 1,
     "patch": 0
   }
 }
